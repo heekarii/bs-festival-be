@@ -63,7 +63,7 @@ class WaitingResponse(BaseModel):
 
 # 메모리상에만 저장하는 예시 (총 24개 테이블)
 tables: List[Table] = [
-    Table(id=i, name=f"테이블 {i}") for i in range(1, 18)
+    Table(id=i, name=f"테이블 {i}") for i in range(1, 20)
 ]
 
 waiting_list: List[WaitingEntry] = []
