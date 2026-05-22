@@ -14,7 +14,7 @@ app.add_middleware(
     allow_origins=["http://localhost:3000",
                    "https://localhost:3000",
                    "https://festival-jrgq6rxju-choheeseoks-projects.vercel.app",
-                   "bs-festival-fe.vercel.app",
+                   "https://bs-festival-fe.vercel.app",
                    "https://festival.heekari.com"
                    ],
     allow_methods=["*"],
